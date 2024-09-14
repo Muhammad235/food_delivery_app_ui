@@ -29,9 +29,9 @@ class Food{
   {
     return [
       Food(
-        'assets/images',
+        'assets/images/dish1.png',
         'No.1 in sales',
-        'Soba Soup',
+        'Orange sandwiches',
         '50 min',
         4.8,
         '325 kcal',
@@ -45,6 +45,48 @@ class Food{
            'Shrimp': 'assets/images'
          }
        ],
+        'Simply put, ramen is a japanese noodle soup',
+        highlight: true,
+
+      ),
+      Food(
+        'assets/images/dish2.png',
+        'Low fat',
+        'Sai Ua Samum phrai',
+        '50 min',
+        4.8,
+        '325 kcal',
+        18,
+        1,
+        [
+          {
+            'Noodle': 'assets/images'
+          },
+          {
+            'Shrimp': 'assets/images'
+          }
+        ],
+        'Simply put, ramen is a japanese noodle soup',
+        highlight: true,
+
+      ),
+      Food(
+        'assets/images/dish3.png',
+        'Highly recommended',
+        'Ratatouille pasta',
+        '50 min',
+        4.8,
+        '325 kcal',
+        17,
+        1,
+        [
+          {
+            'Noodle': 'assets/images'
+          },
+          {
+            'Shrimp': 'assets/images'
+          }
+        ],
         'Simply put, ramen is a japanese noodle soup',
         highlight: true,
 
