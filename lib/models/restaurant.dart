@@ -30,7 +30,10 @@ class Restaurant {
         4.7,
         {
           'Recommend': Food.generatedRecommendFoods(),
-          'Pizza': []
+          'Popular': [],
+          'Pizza': [],
+          'Noodles': [],
+          'Sandwich': []
         }
     );
   }

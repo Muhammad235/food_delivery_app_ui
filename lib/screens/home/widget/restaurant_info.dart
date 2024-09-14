@@ -67,13 +67,18 @@ class RestaurantInfo extends StatelessWidget {
           Row(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
-              Text(restaurant.desc, style: const TextStyle(fontSize: 16),),
+              Text('"${restaurant.desc}"', style: const TextStyle(fontSize: 16, fontWeight: FontWeight.bold),),
               Row(
                 children: [
-                  const Icon(Icons.star_outline, color: kPrimaryColor),
-                  Text("${restaurant.score}", style: const TextStyle(fontSize: 18, fontWeight: FontWeight.bold),)
+                  const Icon(Icons.star_outline,  color: kPrimaryColor),
+                  Text("${restaurant.score}",
+                    style: const TextStyle(
+                        fontSize: 18, fontWeight: FontWeight.bold)
+                    ),
+                  const SizedBox(width: 15)
                 ],
-              )
+              ),
+
             ],
           ),
 
