@@ -23,7 +23,7 @@ class FoodListView extends StatelessWidget {
                 color: Colors.white,
                 boxShadow: [
                   BoxShadow(
-                    color: Colors.black.withOpacity(0.1),
+                    color: Colors.black.withOpacity(0.005),
                     blurRadius: 10,
                     offset: const Offset(0, 5),
                   ),
